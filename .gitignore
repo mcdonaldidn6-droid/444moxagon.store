@@ -1,18 +1,118 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>444 Moxagon Inc</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f5deb3;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+      color: #d4af37;
+    }
+    header h2 {
+      font-size: 24px;
+      font-weight: normal;
+      color: #d4af37;
+      margin-top: -10px;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h3 {
+      color: #d4af37;
+      font-size: 28px;
+      border-bottom: 1px solid #d4af37;
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: 1.6;
+      color: #f5deb3;
+    }
+    .products {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .products img {
+      width: 250px;
+      border-radius: 8px;
+    }
+    .contact-info {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .contact-info a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #d4af37;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+<header>
+  <h1>444 Moxagon Inc</h1>
+  <h2>Artisanal & Craft Excellence</h2>
+</header>
 
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+<section>
+  <h3>Company Profile</h3>
+  <p>
+    444 Moxagon Inc is a leading artisanal and craft company, committed to creating unique, handcrafted products. Founded in 2020, the company has gained recognition for its creativity and exceptional craftsmanship. 444 Moxagon Inc’s vision is to inspire and enrich lives through art and craftsmanship.
+  </p>
+</section>
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+<section>
+  <h3>Our Products</h3>
+  <div class="products">
+    <img src="https://i.imgur.com/T3zH9aU.png" alt="Product Example">
+    <p>
+      We offer a diverse range of handcrafted products, including pottery, paintings, and decorative items. Each product is meticulously crafted by skilled artisans, ensuring exceptional quality and unique designs.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h3>Contact</h3>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:mcdónaldidn@gmail.com">mcdónaldidn@gmail.com</a></p>
+    <p>Phone: 0356-3641-7523</p>
+    <p>Instagram: <a href="https://instagram.com/omatimner">@omatimner</a></p>
+    <p>Address: Sabinelor Nr 19b, 90590, Kota Lumania</p>
+  </div>
+</section>
+
+<section>
+  <h3>Brand Ownership Letter</h3>
+  <p>
+    Kami dengan ini menyatakan bahwa akun Instagram @moxagon_inc adalah akun resmi dari 444 Moxagon Inc. Kami mengonfirmasi kepemilikan merek dan hak cipta atas semua konten, produk, dan desain yang digunakan di bawah nama ini.
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 444 Moxagon Inc. All Rights Reserved.
+</footer>
+
+</body>
+</html>
